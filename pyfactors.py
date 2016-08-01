@@ -30,6 +30,7 @@ def lcm(x,y):
 	output = 1
 	for x in numbers_to_multiply:
 		output *= x
+	return output
 
 def gcf(*x):
 	return max(find_common_factors(*x))
